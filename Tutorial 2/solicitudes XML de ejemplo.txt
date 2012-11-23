@@ -1,0 +1,33 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <insertProfesor xmlns="http://service">
+		<profesorId>123</profesorId>
+		<nombre>1</nombre>
+		<titulo>1</titulo>
+		<area>1</area>
+		<correo>1</correo>
+		<telefono>1</telefono>
+	</insertProfesor >
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <updateProfesor xmlns="http://service">
+		<profesorId>123</profesorId>
+		<nombre>2</nombre>
+		<titulo>2</titulo>
+		<area>2</area>
+		<correo>2</correo>
+		<telefono>2</telefono>
+	</updateProfesor >
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <deleteProfesor xmlns="http://service">
+		<profesorId>123</profesorId>
+	</deleteProfesor >
+   </soap:Body>
+</soap:Envelope>
